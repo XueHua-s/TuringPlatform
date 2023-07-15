@@ -1,4 +1,4 @@
-import axios, { AxiosRequestConfig, AxiosResponse, AxiosError } from 'axios'
+/**/import axios, { AxiosRequestConfig, AxiosResponse, AxiosError } from 'axios'
 const request = axios.create({
   timeout: 3600000
 })
