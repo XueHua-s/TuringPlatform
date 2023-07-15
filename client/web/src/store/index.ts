@@ -1,6 +1,6 @@
 import { createStore, Store } from "redux"
 const startState: StroreState = {
-  userInfo: localStorage.getItem('userInfo') || '123'
+  userInfo: localStorage.getItem('userInfo') || ''
 }
 const storeReducer = (state: StroreState = startState, action: StoreAction<any>) => {
   switch (action.type) {

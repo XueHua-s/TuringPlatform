@@ -986,3 +986,9 @@
   text-overflow: ellipsis;
   overflow: hidden;
 }
+.ant-card {
+  background-color: var(--card-bg-color);
+}
+.ant-card-bordered {
+  border: 1px solid var(--card-border-color);
+}
