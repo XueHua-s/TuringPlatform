@@ -15,7 +15,7 @@ const Login = () => {
       <div className={'flex-mc'} style={{ height: '100vh' }}>
         <div style={{ width: '460px' }}>
           <Card>
-            <h2 className={'txt-ct mb10'}>登录</h2>
+            <h2 className={'txt-ct mb10 color_3'}>登录</h2>
             <Form
               name="basic"
               labelCol={{ span: 4 }}
