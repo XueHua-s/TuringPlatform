@@ -1,6 +1,9 @@
-import React from "react";
+import React, {ReactComponentElement} from "react";
 import './MainLayout.scss'
-const mainLayout = (props: any) => {
+interface Props {
+  children: ReactComponentElement<any>
+}
+const mainLayout = (props: Props) => {
   return (
     <React.Fragment>
       <div className={'main-layout'} data-mainlayout={true}>
